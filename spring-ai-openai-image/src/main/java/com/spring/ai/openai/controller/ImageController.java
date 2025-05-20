@@ -64,12 +64,12 @@ public class ImageController {
     @GetMapping("/image2")
     public String image2(@RequestParam String message) {
         var imageResponse = imageModel.call(new ImagePrompt(message, OpenAiImageOptions.builder()
-                .quality("standard")
-                .N(1)
-                .height(1024)
-                .width(1024)
-                .model(OpenAiImageApi.ImageModel.DALL_E_3.getValue())
-                .responseFormat("url")
+                .withQuality("standard")
+                .withN(1)
+                .withHeight(1024)
+                .withWidth(1024)
+                .withModel(OpenAiImageApi.ImageModel.DALL_E_3.getValue())
+                .withResponseFormat("url")
                 .build()));
         return imageResponse.getResult().getOutput().getUrl();
     }

@@ -39,7 +39,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring-ai.version>1.0.0-SNAPSHOT</spring-ai.version>
+        <spring-ai.version>1.0.0-M8</spring-ai.version>
     </properties>
 
     <dependencies>
@@ -60,7 +60,8 @@
             <dependency>
                 <groupId>org.springframework.ai</groupId>
                 <artifactId>spring-ai-bom</artifactId>
-                <version>1.0.0-SNAPSHOT</version>
+                <!--<version>1.0.0-SNAPSHOT</version>-->
+                <version>1.0.0-M8</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
