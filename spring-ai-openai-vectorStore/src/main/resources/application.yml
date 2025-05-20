@@ -1,0 +1,21 @@
+server:
+  port: 8893
+spring:
+  ai:
+    openai:
+      base-url: ${OPENAI_API_URL}
+      api-key: ${OPENAI_API_KEY}
+      chat:
+        options:
+          model: gpt-3.5-turbo
+          temperature: 0.7
+      embedding:
+        model: text-embedding-ada-002
+#配置向量数据库chroma
+#    vectorstore:
+#      chroma:
+#        client:
+#          host: http://127.0.0.1
+#          port: 8000
+#        collection-name: test
+#        initialize-schema: true

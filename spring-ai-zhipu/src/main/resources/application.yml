@@ -1,0 +1,11 @@
+server:
+  port: 8888
+spring:
+  ai:
+    zhipuai:
+      api-key: ${ZHIPU_API_KEY}
+      base-url: https://open.bigmodel.cn/api/paas
+      chat:
+        options:
+          model: glm-4v
+          temperature: 0.7
