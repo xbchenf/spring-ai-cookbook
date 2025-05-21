@@ -1,0 +1,11 @@
+server:
+  port: 8802
+spring:
+  ai:
+    openai:
+      base-url: ${OPENAI_API_URL}
+      api-key: ${OPENAI_API_KEY}
+      chat:
+        options:
+          model: gpt-4-turbo
+          temperature: 0.7
