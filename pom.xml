@@ -25,8 +25,8 @@
         <module>spring-ai-openai-image</module>
         <module>spring-ai-openai-vectorStore</module>
         <module>spring-ai-openai-rag</module>
-        <module>spring-ai-openai-functionCalling</module>
-
+        <module>spring-ai-openai-toolCalling-example01</module><!-- 单工具 -->
+        <module>spring-ai-openai-toolCalling-example02</module><!-- 多工具 -->
         <module>spring-ai-deepseek</module>
 
         <module>spring-ai-zhipu</module>
