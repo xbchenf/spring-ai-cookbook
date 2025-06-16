@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.spring.ai.mcp.cookbook</groupId>
+        <artifactId>spring-ai-mcp-cookbook</artifactId>
+        <version>${revision}</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <groupId>com.spring.ai.mcp.weather.server</groupId>
+    <artifactId>spring-ai-mcp-weather-server</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>spring-ai-mcp-weather-server</name>
+    <description>Sample Spring Boot application demonstrating MCP client and server usage</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.ai</groupId>
+            <artifactId>spring-ai-starter-mcp-server-webmvc</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

@@ -1,0 +1,66 @@
+2025-06-16T09:49:00.353+08:00  INFO 17836 --- [main] s.a.m.w.server.McpServerApplication      : Starting McpServerApplication v0.0.1-SNAPSHOT using Java 17.0.12 with PID 17836 (D:\github\spring-ai-cookbook\spring-ai-mcp-cookbook\spring-ai-mcp-weather-server\target\spring-ai-mcp-weather-server-0.0.1-SNAPSHOT.jar started by Administrator in D:\github\spring-ai-cookbook\spring-ai-mcp-cookbook\spring-ai-mcp-weather-server\target)
+2025-06-16T09:49:00.359+08:00  INFO 17836 --- [main] s.a.m.w.server.McpServerApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-06-16T09:49:01.763+08:00  INFO 17836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-16T09:49:01.780+08:00  INFO 17836 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-16T09:49:01.781+08:00  INFO 17836 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-06-16T09:49:01.833+08:00  INFO 17836 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-16T09:49:01.834+08:00  INFO 17836 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1397 ms
+2025-06-16T09:49:02.768+08:00  INFO 17836 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-06-16T09:49:02.773+08:00  INFO 17836 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 3
+2025-06-16T09:49:02.774+08:00  INFO 17836 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-06-16T09:49:02.775+08:00  INFO 17836 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-06-16T09:49:02.777+08:00  INFO 17836 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-06-16T09:49:02.851+08:00  INFO 17836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-16T09:49:02.887+08:00  INFO 17836 --- [main] s.a.m.w.server.McpServerApplication      : Started McpServerApplication in 3.215 seconds (process running for 3.857)
+2025-06-16T09:49:25.793+08:00  INFO 17836 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-16T09:49:25.794+08:00  INFO 17836 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-16T09:49:25.797+08:00  INFO 17836 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-06-16T09:49:26.137+08:00  INFO 17836 --- [http-nio-8080-exec-3] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2024-11-05, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null], Info: Implementation[name=spring-ai-mcp-client - my-mcp-weather-server, version=1.0.0]
+2025-06-16T10:24:58.312+08:00  WARN 17836 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2025-06-16T10:24:58.314+08:00  WARN 17836 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2025-06-16T16:00:58.859+08:00  INFO 11680 --- [main] s.a.m.w.server.McpServerApplication      : Starting McpServerApplication v0.0.1-SNAPSHOT using Java 17.0.12 with PID 11680 (D:\github\spring-ai-cookbook\spring-ai-mcp-cookbook\spring-ai-mcp-weather-server\target\spring-ai-mcp-weather-server-0.0.1-SNAPSHOT.jar started by Administrator in D:\github\spring-ai-cookbook\spring-ai-mcp-cookbook\spring-ai-mcp-weather-server\target)
+2025-06-16T16:00:58.864+08:00  INFO 11680 --- [main] s.a.m.w.server.McpServerApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-06-16T16:00:59.951+08:00  INFO 11680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-16T16:00:59.966+08:00  INFO 11680 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-16T16:00:59.966+08:00  INFO 11680 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-06-16T16:01:00.008+08:00  INFO 11680 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-16T16:01:00.008+08:00  INFO 11680 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1084 ms
+2025-06-16T16:01:00.786+08:00  INFO 11680 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-06-16T16:01:00.790+08:00  INFO 11680 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 3
+2025-06-16T16:01:00.790+08:00  INFO 11680 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-06-16T16:01:00.791+08:00  INFO 11680 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-06-16T16:01:00.792+08:00  INFO 11680 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-06-16T16:01:00.851+08:00  INFO 11680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-16T16:01:00.871+08:00  INFO 11680 --- [main] s.a.m.w.server.McpServerApplication      : Started McpServerApplication in 2.521 seconds (process running for 3.049)
+2025-06-16T16:02:34.484+08:00  INFO 9172 --- [main] s.a.m.w.server.McpServerApplication      : Starting McpServerApplication v0.0.1-SNAPSHOT using Java 17.0.12 with PID 9172 (D:\github\spring-ai-cookbook\spring-ai-mcp-cookbook\spring-ai-mcp-weather-server\target\spring-ai-mcp-weather-server-0.0.1-SNAPSHOT.jar started by Administrator in D:\github\spring-ai-cookbook\spring-ai-mcp-cookbook\spring-ai-mcp-weather-server\target)
+2025-06-16T16:02:34.488+08:00  INFO 9172 --- [main] s.a.m.w.server.McpServerApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-06-16T16:02:35.525+08:00  INFO 9172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-16T16:02:35.538+08:00  INFO 9172 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-16T16:02:35.538+08:00  INFO 9172 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-06-16T16:02:35.581+08:00  INFO 9172 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-16T16:02:35.581+08:00  INFO 9172 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1039 ms
+2025-06-16T16:02:36.299+08:00  INFO 9172 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-06-16T16:02:36.302+08:00  INFO 9172 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 3
+2025-06-16T16:02:36.302+08:00  INFO 9172 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-06-16T16:02:36.303+08:00  INFO 9172 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-06-16T16:02:36.304+08:00  INFO 9172 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-06-16T16:02:36.355+08:00  INFO 9172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-16T16:02:36.377+08:00  INFO 9172 --- [main] s.a.m.w.server.McpServerApplication      : Started McpServerApplication in 2.387 seconds (process running for 2.866)
+2025-06-16T16:07:52.581+08:00  INFO 9172 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-16T16:07:52.582+08:00  INFO 9172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-16T16:07:52.586+08:00  INFO 9172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-06-16T16:07:52.808+08:00  INFO 9172 --- [http-nio-8080-exec-2] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2024-11-05, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null], Info: Implementation[name=spring-ai-mcp-client - my-mcp-weather-server, version=1.0.0]
+2025-06-16T16:11:13.789+08:00  INFO 9172 --- [http-nio-8080-exec-9] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2024-11-05, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null], Info: Implementation[name=spring-ai-mcp-client - my-mcp-weather-server, version=1.0.0]
+2025-06-16T16:15:40.027+08:00  INFO 9172 --- [http-nio-8080-exec-6] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2024-11-05, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null], Info: Implementation[name=spring-ai-mcp-client - my-mcp-weather-server, version=1.0.0]
+2025-06-16T16:24:05.569+08:00  INFO 9172 --- [http-nio-8080-exec-2] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2024-11-05, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null], Info: Implementation[name=spring-ai-mcp-client - my-mcp-weather-server, version=1.0.0]
+2025-06-16T16:24:32.916+08:00  INFO 9172 --- [http-nio-8080-exec-8] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2024-11-05, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null], Info: Implementation[name=spring-ai-mcp-client - my-mcp-weather-server, version=1.0.0]
+2025-06-16T16:29:30.472+08:00  WARN 9172 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2025-06-16T16:29:30.472+08:00  WARN 9172 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2025-06-16T16:29:30.472+08:00  WARN 9172 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2025-06-16T16:29:30.472+08:00  WARN 9172 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2025-06-16T16:29:30.473+08:00  WARN 9172 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2025-06-16T16:29:30.473+08:00  WARN 9172 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2025-06-16T16:29:30.472+08:00  WARN 9172 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2025-06-16T16:29:30.473+08:00  WARN 9172 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2025-06-16T16:29:30.473+08:00  WARN 9172 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2025-06-16T16:29:30.473+08:00  WARN 9172 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]

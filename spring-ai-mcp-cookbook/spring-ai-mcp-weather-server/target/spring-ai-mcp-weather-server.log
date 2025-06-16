@@ -1,0 +1,23 @@
+2025-06-15T21:30:34.306+08:00  INFO 9628 --- [main] s.a.m.w.server.McpServerApplication      : Starting McpServerApplication using Java 17.0.12 with PID 9628 (D:\github\spring-ai-cookbook\spring-ai-mcp-cookbook\spring-ai-mcp-weather-server\target\classes started by Administrator in D:\github\spring-ai-cookbook)
+2025-06-15T21:30:34.309+08:00  INFO 9628 --- [main] s.a.m.w.server.McpServerApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-06-15T21:30:35.331+08:00  INFO 9628 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-15T21:30:35.349+08:00  INFO 9628 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-15T21:30:35.349+08:00  INFO 9628 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-06-15T21:30:35.409+08:00  INFO 9628 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-15T21:30:35.410+08:00  INFO 9628 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1053 ms
+2025-06-15T21:30:36.226+08:00  INFO 9628 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-06-15T21:30:36.229+08:00  INFO 9628 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 3
+2025-06-15T21:30:36.230+08:00  INFO 9628 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-06-15T21:30:36.230+08:00  INFO 9628 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-06-15T21:30:36.231+08:00  INFO 9628 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-06-15T21:30:36.293+08:00  INFO 9628 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-15T21:30:36.300+08:00  INFO 9628 --- [main] s.a.m.w.server.McpServerApplication      : Started McpServerApplication in 2.58 seconds (process running for 3.647)
+2025-06-15T21:32:16.305+08:00  INFO 9628 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-15T21:32:16.305+08:00  INFO 9628 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-15T21:32:16.306+08:00  INFO 9628 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-06-15T21:32:16.491+08:00  INFO 9628 --- [http-nio-8080-exec-2] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2024-11-05, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null], Info: Implementation[name=spring-ai-mcp-client - my-mcp-weather-server, version=1.0.0]
+2025-06-15T21:35:31.264+08:00  INFO 9628 --- [http-nio-8080-exec-8] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2024-11-05, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null], Info: Implementation[name=spring-ai-mcp-client - my-mcp-weather-server, version=1.0.0]
+2025-06-15T21:39:09.367+08:00  WARN 9628 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2025-06-15T21:39:09.367+08:00  WARN 9628 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2025-06-15T21:39:09.368+08:00  WARN 9628 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2025-06-15T21:39:09.368+08:00  WARN 9628 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
