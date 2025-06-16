@@ -19,6 +19,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 /**
  * @author 寻道AI小兵
  * @since 2025-4-15 15:19:51
@@ -42,9 +47,22 @@ public class ImageModelController {
     public String multimodal1(@RequestParam(value = "message", defaultValue = "请帮我描述一下这张图片") String message) {
         ClassPathResource imageResource = new ClassPathResource("/multimodal-test.png");
 
-        UserMessage userMessage = new UserMessage(
-                "Explain what do you see in this picture?", // content
-                new Media(MimeTypeUtils.IMAGE_PNG, imageResource)); // media
+//        UserMessage userMessage = new UserMessage(
+//                "Explain what do you see in this picture?", // content
+//                new Media(MimeTypeUtils.IMAGE_PNG, imageResource)); // media
+
+        // 构造图文内容
+        List<Media> mediaList = List.of(new Media(MimeTypeUtils.IMAGE_PNG, imageResource));
+
+        // 可选元数据
+        Map<String, Object> metadata = Map.of("source", "local");
+
+        // 使用 builder 构建 UserMessage
+        UserMessage userMessage = UserMessage.builder()
+                .text("Explain what do you see in this picture?")
+                .media(mediaList)
+                .metadata(metadata)
+                .build();
 
         ChatResponse response = chatModel.call(new Prompt(userMessage));
         return response.getResult().getOutput().getText();

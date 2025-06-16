@@ -1,5 +1,6 @@
 package com.spring.ai.openai.config;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.ai.chroma.vectorstore.ChromaApi;
 import org.springframework.ai.chroma.vectorstore.ChromaVectorStore;
 import org.springframework.ai.document.DocumentTransformer;
@@ -37,7 +38,7 @@ public class RagConfig {
     @Bean
     public ChromaApi chromaApi(RestClient.Builder restClientBuilder) {
         String chromaUrl = "http://localhost:8000";
-        ChromaApi chromaApi = new ChromaApi(chromaUrl, restClientBuilder);
+        ChromaApi chromaApi = new ChromaApi(chromaUrl, restClientBuilder,new ObjectMapper());
         return chromaApi;
     }
     @Bean
