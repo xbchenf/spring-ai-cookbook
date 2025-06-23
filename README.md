@@ -21,6 +21,7 @@
 | 14 | springAI集成智谱AI：开发入门            | [spring-ai-zhipu](spring-ai-zhipu)|
 | 15 | springAI集成deepseek：开发入门        | [spring-ai-deepseek](spring-ai-deepseek) |
 | 16 | springAI + MCP 开发实战            |[spring-ai-mcp-cookbook](spring-ai-mcp-cookbook) |
+| 17 | springAI 集成 Deepseek 开发指南      |[spring-ai-deepseek-cookbook](spring-ai-deepseek-cookbook)|
 
 
 更多大模型开发实践专栏：https://blog.csdn.net/xiaobing259
