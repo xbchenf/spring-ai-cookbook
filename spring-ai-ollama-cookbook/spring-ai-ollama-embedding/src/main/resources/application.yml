@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  ai:
+    ollama:
+      init:
+        pull-model-strategy: never
+        timeout: 60s
+        max-retries: 1
+      base-url: http://localhost:11434
+      chat:
+        model: qwen3:8b
+      embedding:
+        model: bge-large:335m

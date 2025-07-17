@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  ai:
+    ollama:
+      init:
+        pull-model-strategy: never
+        timeout: 60s
+        max-retries: 1
+      base-url: http://localhost:11434
+      chat:
+        model: qwen3:8b
+#always （定义在 PullModelStrategy.ALWAYS 中）：始终拉取模型，即使它已经可用。有助于确保您使用的是模型的最新版本。
+#when_missing （定义在 PullModelStrategy.WHEN_MISSING 中）：只有当模型不可用时才拉取。这可能导致使用较旧版本的模型。
+#never （定义于 PullModelStrategy.NEVER ）：切勿自动拉取模型。
